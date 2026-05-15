@@ -44,6 +44,7 @@ const digital_lease_module_1 = require("./digital-lease/digital-lease.module");
 const roommate_module_1 = require("./roommate/roommate.module");
 const newsletter_module_1 = require("./newsletter/newsletter.module");
 const insights_module_1 = require("./insights/insights.module");
+const community_module_1 = require("./community/community.module");
 let AppModule = class AppModule {
 };
 exports.AppModule = AppModule;
@@ -113,6 +114,7 @@ exports.AppModule = AppModule = __decorate([
             roommate_module_1.RoommateMatchingModule,
             newsletter_module_1.NewsletterModule,
             insights_module_1.InsightsModule,
+            community_module_1.CommunityModule,
         ],
         controllers: [app_controller_1.AppController],
         providers: [

@@ -38,6 +38,7 @@ import { DigitalLeaseModule } from './digital-lease/digital-lease.module';
 import { RoommateMatchingModule } from './roommate/roommate.module';
 import { NewsletterModule } from './newsletter/newsletter.module';
 import { InsightsModule } from './insights/insights.module';
+import { CommunityModule } from './community/community.module';
 
 @Module({
   imports: [
@@ -112,6 +113,7 @@ import { InsightsModule } from './insights/insights.module';
     RoommateMatchingModule,
     NewsletterModule,
     InsightsModule,
+    CommunityModule,
   ],
 
   controllers: [AppController],
